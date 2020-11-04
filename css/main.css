@@ -41,8 +41,8 @@ ul
     fill: #2196F3;
   }
 
-.header-icom:hover{
-    fill: #2196F3;
+.header-hoverr:hover{
+    fill:currentColor;
   
 }
 
@@ -120,6 +120,9 @@ ul
 
 
 .adres {
+    font-family: 'Roboto', sans-serif;
+   display: flex;
+   
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -239,7 +242,7 @@ ul
 }
 .team1{
     padding-top: 94px;
-    display: inline-block; 
+    
     display: block;
     background: #F5F4FA;
     
@@ -253,6 +256,7 @@ ul
 }
 .signature
 {
+    
     /*margin-bottom: 94px;*/
     padding: 0;
     margin-bottom: 0;
@@ -280,12 +284,11 @@ ul
     padding: 0;
     border: none;
     border-radius: 50%;
-    display: inline-block; 
+    display: inline-block;
+    background-color: #FFFFFF;
+
     
-}
-.buton-icom:hover{
-    fill:#FFFFFF;
-  
+    
 }
 
 .iconlast{ 
@@ -293,7 +296,18 @@ ul
 }
 .icon:hover{
     background-color: #2196F3;
+    fill: #FFFFFF;
 }
+.buton-ic:hover{
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+.buton-icom:hover{
+   fill: #FFFFFF;
+}
+   
+  
+
  .signature1
 {
     margin-bottom: 16px;
@@ -312,6 +326,101 @@ ul
 {
     margin-top: 30px;
     margin-bottom: 10px;
+}
+/*client*/
+
+.client-iconn{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 94px;
+    padding-bottom: 30px;
+    padding-inline-start: 0px;
+    display: inline-block;
+    text-align: center; 
+    
+   /*padding-left: 30px;*/
+   /*padding-right: 30px;*/
+}
+.client {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    display: block; 
+    
+    
+    
+}
+.post{
+
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.client-icon
+{
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    width: 166px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    fill:#AFB1B8;
+   
+}
+.client-icon:hover{
+    border:solid #2196F3;
+    
+}
+.client-icon >.client-foto:hover
+{
+    fill:#2196F3;
+}
+.client-last{
+    margin: 0px;
+}
+.client-foto
+{
+    text-align: center;
+    display: block;
+    fill:#AFB1B8;
+    margin: 0;
+    padding: 0;
+}
+.client-foto1 {
+   padding-top: 20px;
+   padding-bottom: 20.77px;
+}
+.client-foto2 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.client-foto3 {
+    padding-top: 24px;
+    padding-bottom: 23.4px;
+}
+.client-foto4 {
+    padding-top: 24px;
+    padding-bottom: 23.98px;
+}
+.client-foto5 {
+    padding-top: 21px;
+    padding-bottom: 22px;
+}
+.client-foto6 {
+    padding-top: 22px;
+    padding-bottom: 22.56px;
 }
 /*foter*/
 .footer
@@ -353,10 +462,22 @@ ul
 }
 .foter-flex{  
     display: flex;
-    
-   
     align-items: baseline;}
-    
+   
+    .iconnf{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 30px;
+        padding-inline-start: 0px;
+        display: inline-flex; 
+        justify-content: center;
+        align-items: center;
+        
+       /*padding-left: 30px;*/
+       /*padding-right: 30px;*/
+    }
+    .to{padding-left:45% ;}
+
 .foter-icon
 {
     margin-left: 156px;
@@ -375,24 +496,27 @@ ul
     }
 
 
-    .buton-iconf
-    {
-        fill: #AFB1B8;
-        
-        padding: 0;
-        margin: 0;
-          
-    }
+    
+   
     .icon-foter{
         margin-right: 10px;
         width:44px;
         height:44px;
         padding: 0;
         border: none;
+        display: inline-flex; 
         border-radius: 50%;
-        display: inline-block; 
+        align-items: center;
         background-color: rgba(255, 255, 255, 0.1);
         
+    }
+    .buton-iconf
+    {
+        fill: #AFB1B8;
+        display: block;
+        
+        
+          
     }
     .buton-iconf:hover{
         fill:#FFFFFF;
@@ -404,6 +528,7 @@ ul
     }
     .icon-foter:hover{
         background-color: #2196F3;
+        fill:#FFFFFF;
     }
 
 
@@ -442,6 +567,7 @@ ul
     padding: 0;
     padding-bottom: 30px;
     padding-inline-start: 0px;
+    display: inline-block; 
     
    /*padding-left: 30px;*/
    /*padding-right: 30px;*/
