@@ -20,6 +20,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
+   
+    
 }
 
 ul
@@ -32,19 +34,15 @@ ul
     padding: 0;
     margin: 0;
     margin-right: 10px;
-    fill:#757575;
+    fill:currentColor;
 }
 
 
 .header-hover:hover{
     color: #2196F3;
-    fill: #2196F3;
   }
 
-.header-hoverr:hover{
-    fill:currentColor;
-  
-}
+
 
 
 
@@ -55,12 +53,16 @@ ul
     /*background-color: brown;*/}
 .logo {
     align-items: center;
+    margin: 0;
+    padding: 0;
     padding-top: 24px;
     padding-bottom: 25px;
-    display: flex;   
+    display: flex;  
+    align-items: baseline; 
     list-style-type: none;
     color: #070707;
     font-family: Raleway;
+    
 }
 
 .item1:not(:last-child) {
@@ -87,8 +89,9 @@ ul
 .adress
 {
     padding: 0;
+    padding-left: 250px;
     display: flex;
-    align-items:center;
+    justify-content: flex-end;
     margin: 0;
     }
 
@@ -99,13 +102,16 @@ ul
 
 .logo-st
 { padding: 0;
-    padding-right: 159px;
-    
+    padding-right: 94px;
     margin: 0;
-    margin-right: 93px;
-    color: #070707;
+    /*margin-right: 93px;*/
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
-
+.logo-st1
+{
+    color: #000000;
+}
 .logo-b
 {
     display: inline-block;
@@ -158,7 +164,7 @@ ul
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 30px;
-          
+    color: #FFFFFF;    
     width: 696px;
     height: 120px;
     text-transform: uppercase;
@@ -178,7 +184,7 @@ ul
     line-height: 1.9;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #000000;
+    background: #2196F3;
        
 }
 
@@ -285,26 +291,29 @@ ul
     border: none;
     border-radius: 50%;
     display: inline-block;
-    background-color: #FFFFFF;
 
-    
-    
+    overflow: hidden;
+   /* background-color: #FFFFFF;*/
+  
+       
 }
 
 .iconlast{ 
     margin:0;
 }
-.icon:hover{
+.icon:hover,
+.icon:hover .buton-icom{
     background-color: #2196F3;
     fill: #FFFFFF;
 }
+/*
 .buton-ic:hover{
     background-color: #2196F3;
     fill: #FFFFFF;
-}
-.buton-icom:hover{
+}*/
+/* .buton-icom:hover{
    fill: #FFFFFF;
-}
+} */
    
   
 
@@ -380,7 +389,7 @@ ul
    
 }
 .client-icon:hover{
-    border:solid #2196F3;
+    border: 1px solid  #2196F3;
     
 }
 .client-icon >.client-foto:hover
@@ -476,7 +485,12 @@ ul
        /*padding-left: 30px;*/
        /*padding-right: 30px;*/
     }
-    .to{padding-left:45% ;}
+    .to
+    { 
+    fill:#FFFFFF;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;}
 
 .foter-icon
 {
@@ -504,7 +518,8 @@ ul
         height:44px;
         padding: 0;
         border: none;
-        display: inline-flex; 
+        display: flex; 
+        justify-content: center;
         border-radius: 50%;
         align-items: center;
         background-color: rgba(255, 255, 255, 0.1);
@@ -617,6 +632,10 @@ ul
     {
         border: 1px solid #EEEEEE;
         margin-bottom: 30px;
+}
+.border:hover
+{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .signature-page1
