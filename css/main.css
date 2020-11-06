@@ -75,7 +75,8 @@ ul
     text-align: center;
     margin: 0;
     padding: 0;
-    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    /* padding-bottom: 20px; */
     text-decoration: none;
     list-style-type: none;
     font-weight: 700;
@@ -106,7 +107,7 @@ ul
     margin: 0;
     /*margin-right: 93px;*/
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    
 }
 .logo-st1
 {
@@ -457,12 +458,13 @@ ul
     background: #2F303A;
       padding-top: 60px;
       padding-bottom: 60px;
+   
     /*background: chartreuse;*/}
- /*.footerlofo
+ .footerlofo
  {
-    margin-left: 0;
-    margin-bottom: 20px;
- }*/
+    font-family: Raleway, sans-serif;
+    padding-bottom: 30px;
+ }
  .footera1:not(:last-child) 
  {
      padding-bottom: 8px;
@@ -485,6 +487,8 @@ ul
        /*padding-left: 30px;*/
        /*padding-right: 30px;*/
     }
+    .logor
+    {padding-right:156px ;}
     .to
     { 
     fill:#FFFFFF;
@@ -494,9 +498,8 @@ ul
 
 .foter-icon
 {
-    margin-left: 156px;
     margin: 0;
-    padding-bottom: 20px;
+     padding-bottom: 20px;
     padding: 0;
     padding-bottom: 20px;
     text-transform: uppercase;
