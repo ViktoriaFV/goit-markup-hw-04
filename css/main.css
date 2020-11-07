@@ -21,8 +21,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
-   
-    
+      
 }
 
 ul
@@ -69,6 +68,10 @@ ul
 .item1:not(:last-child) {
     margin-right: 50px;
   }
+.item2
+{
+    margin-right: 30px;
+} 
 .logo1
 {
     align-items:baseline;
@@ -76,7 +79,7 @@ ul
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Raleway, sans-serif;
     /* padding-bottom: 20px; */
     text-decoration: none;
     list-style-type: none;
@@ -98,16 +101,21 @@ ul
     }
 
 .tit
-{padding-top: 50px;}
+{
+    padding-top: 50px;
+}
 .con1
- {padding-top: 94px;}
+ {
+     padding-top: 94px;
+}
 
 .logo-st
-{ padding: 0;
+{   padding: 0;
     padding-right: 94px;
     margin: 0;
     /*margin-right: 93px;*/
     color: #FFFFFF;
+    font-family: Raleway, sans-serif;
     
 }
 .logo-st1
@@ -129,7 +137,7 @@ ul
 
 .adres {
     font-family: 'Roboto', sans-serif;
-   display: flex;
+    display: flex;
    
     text-decoration: none;
     font-style: normal;
